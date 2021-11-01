@@ -1,6 +1,6 @@
 # bilim_app
 
-A new Flutter project.
+This is an app created by Flutter, where you can read the newest and useful articles in kyrgyz language.
 
 ## Getting Started
 
