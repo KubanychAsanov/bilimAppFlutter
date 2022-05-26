@@ -97,7 +97,7 @@ class LoginPage extends StatelessWidget {
                         child: InkWell(
                           onTap: () {
                             print("LOGIN TAPPED");
-                            context.pushRoute(FeaturedRoute());
+                            context.pushRoute(const NavigationRoute());
                           },
                           child: Center(
                             child: Text(
