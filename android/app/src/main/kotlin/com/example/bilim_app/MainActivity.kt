@@ -1,4 +1,4 @@
-package com.example.bilim_app_flutter
+package com.example.bilim_app
 
 import io.flutter.embedding.android.FlutterActivity
 

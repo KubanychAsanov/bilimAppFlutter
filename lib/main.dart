@@ -1,23 +1,17 @@
 import 'package:flutter/material.dart';
 
-import 'package:bilim_app/router/app_router.dart';
+import 'app.dart';
+import 'injection.dart';
+import 'ui/screens/settings/settings_controller.dart';
+import 'ui/screens/settings/settings_service.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await configureDependencies();
 
-class MyApp extends StatelessWidget {
-  final AppRouter _appRouter = AppRouter();
+  final settingsController = SettingsController(SettingsService());
 
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      onGenerateRoute: _appRouter.onGenerateRoute,
-    );
-  }
+  await settingsController.loadSettings();
+
+  runApp(MyApp(settingsController: settingsController));
 }
