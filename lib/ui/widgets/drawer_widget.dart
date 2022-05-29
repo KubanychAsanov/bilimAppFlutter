@@ -8,13 +8,14 @@ import 'package:bilim_app/ui/page_bloc.dart';
 class DrawerWidget extends StatelessWidget {
   final PageState state;
 
-  DrawerWidget(this.state);
+  const DrawerWidget({Key? key, required this.state}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
       child: ListView(
         children: [
-          DrawerHeader(
+          const DrawerHeader(
             child: Center(
               child: Text(
                 'SQLди оңой үйрөн',
@@ -26,9 +27,9 @@ class DrawerWidget extends StatelessWidget {
             ),
           ),
           ListView.builder(
-            physics: NeverScrollableScrollPhysics(),
+            physics: const NeverScrollableScrollPhysics(),
             shrinkWrap: true,
-            padding: EdgeInsets.only(bottom: 10),
+            padding: const EdgeInsets.only(bottom: 10),
             itemCount: articles.length,
             itemBuilder: (BuildContext context, int index) {
               return InkWell(
@@ -43,7 +44,7 @@ class DrawerWidget extends StatelessWidget {
                     articles[index]['title'],
                     style: TextStyle(
                       fontSize: 18,
-                      color: state.index == index ? Colors.white : Colors.black,
+                      color: state.index == index ? Colors.white : null,
                     ),
                   ),
                 ),

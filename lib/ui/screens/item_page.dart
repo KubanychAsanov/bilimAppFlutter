@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bilim_app/constants/color.dart';
@@ -10,7 +12,9 @@ import '../widgets/markdown_content.dart';
 import '../widgets/youtube_content.dart';
 
 class ItemPage extends StatelessWidget {
-  final dataKey = new GlobalKey();
+  final dataKey = GlobalKey();
+
+  ItemPage({Key? key}) : super(key: key);
 
   List generateContentBody(contents) {
     return contents.map((content) {
@@ -22,7 +26,7 @@ class ItemPage extends StatelessWidget {
         case 'IMAGE':
           return ImageContent(imageUrl: content['data']);
         default:
-          print('Unknown content type');
+          log('Unknown content type');
       }
     }).toList();
   }
@@ -33,13 +37,13 @@ class ItemPage extends StatelessWidget {
       bloc: getIt<PageBloc>(),
       builder: (context, state) {
         final pageIndex = state.index;
-        print(pageIndex);
+        log(pageIndex.toString());
 
         return Scaffold(
           appBar: AppBar(
             title: Text(articles[pageIndex]['title']),
           ),
-          drawer: DrawerWidget(state),
+          drawer: DrawerWidget(state: state),
           body: SingleChildScrollView(
             child: Column(
               children: [

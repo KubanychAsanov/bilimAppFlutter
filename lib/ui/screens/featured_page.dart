@@ -131,6 +131,7 @@ class CategoryCard extends StatelessWidget {
             Text(
               category.name,
               style: const TextStyle(
+                color: Colors.black,
                 fontSize: 18,
                 fontWeight: FontWeight.w500,
                 fontFamily: 'Poppins',
@@ -139,6 +140,7 @@ class CategoryCard extends StatelessWidget {
             Text(
               "${category.noOfCourses.toString()} courses",
               style: const TextStyle(
+                color: Colors.black,
                 fontSize: 18,
                 fontWeight: FontWeight.w500,
               ),

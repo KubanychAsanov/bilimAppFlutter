@@ -28,7 +28,7 @@ class _CoursePageState extends State<CoursePage> {
                 IntrinsicHeight(
                   child: Stack(
                     children: [
-                      Align(
+                      const Align(
                         child: Text(
                           'Development',
                           style: TextStyle(
@@ -41,7 +41,10 @@ class _CoursePageState extends State<CoursePage> {
                       Positioned(
                         left: 0,
                         child: CustomIconButton(
-                          child: const Icon(Icons.arrow_back),
+                          child: const Icon(
+                            Icons.arrow_back,
+                            color: Colors.black,
+                          ),
                           height: 35,
                           width: 35,
                           onTap: () => context.popRoute(),
@@ -89,7 +92,7 @@ class CourseContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => context.pushRoute(ItemRoute()),
+      onTap: () => context.pushRoute(const ItemRoute()),
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
@@ -115,7 +118,8 @@ class CourseContainer extends StatelessWidget {
                 children: [
                   Text(
                     course.name,
-                    style: TextStyle(
+                    style: const TextStyle(
+                      color: Colors.black,
                       fontSize: 18,
                       fontWeight: FontWeight.w500,
                       fontFamily: 'Poppins',
@@ -123,7 +127,8 @@ class CourseContainer extends StatelessWidget {
                   ),
                   Text(
                     "Author: ${course.author}",
-                    style: TextStyle(
+                    style: const TextStyle(
+                      color: Colors.black,
                       fontSize: 15,
                       fontWeight: FontWeight.w500,
                     ),
