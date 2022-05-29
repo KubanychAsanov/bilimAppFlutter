@@ -1,3 +1,4 @@
+import 'package:bilim_app/constants/color.dart';
 import 'package:flutter/material.dart';
 
 import 'featured_page.dart';
@@ -29,22 +30,14 @@ class _NavigationState extends State<NavigationPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: _pages[_selectedTab],
-      bottomNavigationBar: Theme(
-        data: Theme.of(context).copyWith(),
-        child: BottomNavigationBar(
-          // unselectedItemColor:
-          //     brightness == Brightness.light ? Colors.black : Colors.white70,
-          // selectedItemColor:
-          //     brightness == Brightness.light ? Colors.black : Colors.white,
-          currentIndex: _selectedTab,
-          onTap: (index) => _changeTab(index),
-          items: const [
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.ac_unit), label: "Courses"),
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-          ],
-        ),
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _selectedTab,
+        onTap: (index) => _changeTab(index),
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.ac_unit), label: "Courses"),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+        ],
       ),
     );
   }

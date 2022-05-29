@@ -1,0 +1,12 @@
+{
+  "appTitle": "onion",
+  "@appTitle": {
+    "description": "Тиркеменин аталышы"
+  },
+  "homeTitle": "Onion-дун башкы баракчасы",
+  "settings": "Оңдоолор",
+  "systemTheme": "Системанын темасы",
+  "lightTheme": "Күндүзгү тема",
+  "darkTheme": "Түнкү тема",
+  "changeThema": "Теманы алмаштыруу"
+}

@@ -1,18 +1,15 @@
+import 'package:bilim_app/constants/color.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'injection.dart';
 import 'ui/routing/router.gr.dart';
 import 'ui/screens/settings/settings_controller.dart';
 
 /// The Widget that configures your application.
 class MyApp extends StatelessWidget {
-  MyApp({
-    Key? key,
-    required this.settingsController,
-  }) : super(key: key);
+  MyApp({Key? key}) : super(key: key);
 
-  final SettingsController settingsController;
+  final SettingsController settingsController = getIt<SettingsController>();
   final _appRouter = getIt<AppRouter>();
 
   @override
@@ -43,7 +40,15 @@ class MyApp extends StatelessWidget {
 
           // onGenerateTitle: (BuildContext context) =>
           //     AppLocalizations.of(context)!.appTitle,
-          theme: ThemeData(),
+          theme: ThemeData(
+            primaryColor: kPrimaryColor,
+            appBarTheme: const AppBarTheme(
+              color: kPrimaryColor,
+            ),
+            bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+              selectedItemColor: kPrimaryColor,
+            ),
+          ),
           darkTheme: ThemeData.dark(),
           themeMode: settingsController.themeMode,
 

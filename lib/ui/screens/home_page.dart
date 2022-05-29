@@ -1,6 +1,9 @@
+import 'package:auto_route/src/router/auto_router_x.dart';
+import 'package:bilim_app/ui/routing/router.gr.dart';
 import 'package:flutter/material.dart';
 
-import 'settings/settings_view.dart';
+import '../../injection.dart';
+import 'settings/settings_controller.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -14,7 +17,11 @@ class HomePage extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.settings),
             onPressed: () {
-              Navigator.pushNamed(context, SettingsView.routeName);
+              context.pushRoute(
+                SettingsRoute(
+                  controller: getIt<SettingsController>(),
+                ),
+              );
             },
           )
         ],

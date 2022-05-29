@@ -1,0 +1,12 @@
+{
+  "appTitle": "onion",
+  "@appTitle": {
+    "description": "Название приложения"
+  },
+  "homeTitle": "Главная страница Onion",
+  "settings": "Настройки",
+  "systemTheme": "Системная тема",
+  "lightTheme": "Светлая тема",
+  "darkTheme": "Темная тема",
+  "changeThema": "Измененить темы"
+}

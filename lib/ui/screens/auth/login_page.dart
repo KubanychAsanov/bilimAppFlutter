@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -19,37 +21,36 @@ class LoginPage extends StatelessWidget {
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Container(
-              child: Stack(
-                children: <Widget>[
-                  Container(
-                    padding: EdgeInsets.fromLTRB(15.0, 110.0, 0.0, 0.0),
-                    child: Text('Hello',
-                        style: TextStyle(
-                            fontSize: 80.0, fontWeight: FontWeight.bold)),
-                  ),
-                  Container(
-                    padding: EdgeInsets.fromLTRB(16.0, 175.0, 0.0, 0.0),
-                    child: Text('There',
-                        style: TextStyle(
-                            fontSize: 80.0, fontWeight: FontWeight.bold)),
-                  ),
-                  Container(
-                    padding: EdgeInsets.fromLTRB(220.0, 175.0, 0.0, 0.0),
-                    child: Text('.',
-                        style: TextStyle(
-                            fontSize: 80.0,
-                            fontWeight: FontWeight.bold,
-                            color: kPrimaryColor)),
-                  )
-                ],
-              ),
+            Stack(
+              children: <Widget>[
+                Container(
+                  padding: const EdgeInsets.fromLTRB(15.0, 110.0, 0.0, 0.0),
+                  child: const Text('Hello',
+                      style: TextStyle(
+                          fontSize: 80.0, fontWeight: FontWeight.bold)),
+                ),
+                Container(
+                  padding: const EdgeInsets.fromLTRB(16.0, 175.0, 0.0, 0.0),
+                  child: const Text('There',
+                      style: TextStyle(
+                          fontSize: 80.0, fontWeight: FontWeight.bold)),
+                ),
+                Container(
+                  padding: const EdgeInsets.fromLTRB(220.0, 175.0, 0.0, 0.0),
+                  child: const Text('.',
+                      style: TextStyle(
+                          fontSize: 80.0,
+                          fontWeight: FontWeight.bold,
+                          color: kPrimaryColor)),
+                )
+              ],
             ),
             Container(
-                padding: EdgeInsets.only(top: 35.0, left: 20.0, right: 20.0),
+                padding:
+                    const EdgeInsets.only(top: 35.0, left: 20.0, right: 20.0),
                 child: Column(
                   children: <Widget>[
-                    TextField(
+                    const TextField(
                       decoration: InputDecoration(
                           labelText: 'EMAIL',
                           labelStyle: TextStyle(
@@ -59,8 +60,8 @@ class LoginPage extends StatelessWidget {
                           focusedBorder: UnderlineInputBorder(
                               borderSide: BorderSide(color: kPrimaryColor))),
                     ),
-                    SizedBox(height: 20.0),
-                    TextField(
+                    const SizedBox(height: 20.0),
+                    const TextField(
                       decoration: InputDecoration(
                           labelText: 'PASSWORD',
                           labelStyle: TextStyle(
@@ -71,11 +72,11 @@ class LoginPage extends StatelessWidget {
                               borderSide: BorderSide(color: kPrimaryColor))),
                       obscureText: true,
                     ),
-                    SizedBox(height: 5.0),
+                    const SizedBox(height: 5.0),
                     Container(
-                      alignment: Alignment(1.0, 0.0),
-                      padding: EdgeInsets.only(top: 15.0, left: 20.0),
-                      child: InkWell(
+                      alignment: const Alignment(1.0, 0.0),
+                      padding: const EdgeInsets.only(top: 15.0, left: 20.0),
+                      child: const InkWell(
                         child: Text(
                           'Forgot Password',
                           style: TextStyle(
@@ -86,8 +87,8 @@ class LoginPage extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(height: 40.0),
-                    Container(
+                    const SizedBox(height: 40.0),
+                    SizedBox(
                       height: 40.0,
                       child: Material(
                         borderRadius: BorderRadius.circular(20.0),
@@ -96,10 +97,10 @@ class LoginPage extends StatelessWidget {
                         elevation: 7.0,
                         child: InkWell(
                           onTap: () {
-                            print("LOGIN TAPPED");
-                            context.pushRoute(const NavigationRoute());
+                            log("LOGIN TAPPED");
+                            context.replaceRoute(const NavigationRoute());
                           },
-                          child: Center(
+                          child: const Center(
                             child: Text(
                               'LOGIN',
                               style: TextStyle(
@@ -111,29 +112,30 @@ class LoginPage extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(height: 20.0),
+                    const SizedBox(height: 20.0),
                   ],
                 )),
-            SizedBox(height: 15.0),
+            const SizedBox(height: 15.0),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Text(
+                const Text(
                   "Don't have an account",
                   style: TextStyle(fontFamily: 'Montserrat'),
                 ),
-                SizedBox(width: 5.0),
+                const SizedBox(width: 5.0),
                 InkWell(
                   onTap: () {
-                    context.pushRoute(RegistrationRoute());
+                    context.pushRoute(const RegistrationRoute());
                   },
-                  child: Text(
+                  child: const Text(
                     'Register',
                     style: TextStyle(
-                        color: kPrimaryColor,
-                        fontFamily: 'Montserrat',
-                        fontWeight: FontWeight.bold,
-                        decoration: TextDecoration.underline),
+                      color: kPrimaryColor,
+                      fontFamily: 'Montserrat',
+                      fontWeight: FontWeight.bold,
+                      decoration: TextDecoration.underline,
+                    ),
                   ),
                 )
               ],

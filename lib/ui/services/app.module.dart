@@ -5,4 +5,10 @@ import 'package:injectable/injectable.dart';
 abstract class AppModule {
   @injectable
   AppRouter get appRouter => AppRouter();
+
+  // @preResolve
+  // SettingsController get settingsController =>
+  //     SettingsController(SettingsService());
+  // await settingsController.loadSettings();
+
 }

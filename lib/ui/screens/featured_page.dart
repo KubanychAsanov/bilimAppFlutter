@@ -101,7 +101,7 @@ class CategoryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => context.pushRoute(CourseRoute()),
+      onTap: () => context.pushRoute(const CourseRoute()),
       child: Container(
         padding: const EdgeInsets.all(10),
         decoration: BoxDecoration(
@@ -130,7 +130,7 @@ class CategoryCard extends StatelessWidget {
             ),
             Text(
               category.name,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w500,
                 fontFamily: 'Poppins',
@@ -138,7 +138,7 @@ class CategoryCard extends StatelessWidget {
             ),
             Text(
               "${category.noOfCourses.toString()} courses",
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w500,
               ),
@@ -182,7 +182,7 @@ class AppBar extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
+              const Text(
                 "Hello,\nGood Morning",
                 style: TextStyle(
                   fontSize: 16,

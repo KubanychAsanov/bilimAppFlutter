@@ -1,0 +1,12 @@
+{
+  "appTitle": "onion",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "homeTitle": "Home page of Onion",
+  "settings": "Settings",
+  "systemTheme": "System Theme",
+  "lightTheme": "Light Theme",
+  "darkTheme": "Dark Theme",
+  "changeThema": "Changing the theme mode"
+}

@@ -2,10 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'settings_controller.dart';
 
-class SettingsView extends StatelessWidget {
-  const SettingsView({Key? key, required this.controller}) : super(key: key);
-
-  static const routeName = '/settings';
+class SettingsPage extends StatelessWidget {
+  const SettingsPage({Key? key, required this.controller}) : super(key: key);
 
   final SettingsController controller;
 
@@ -13,7 +11,7 @@ class SettingsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("AppLocalizations.of(context)!.settings"),
+        title: const Text("Оңдоолор"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
@@ -21,7 +19,7 @@ class SettingsView extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             const Text(
-              "AppLocalizations.of(context)!.changeThema}:",
+              "Теманы алмаштыруу:",
               style: TextStyle(fontSize: 18),
             ),
             DropdownButton<ThemeMode>(
@@ -32,15 +30,15 @@ class SettingsView extends StatelessWidget {
               items: const [
                 DropdownMenuItem(
                   value: ThemeMode.system,
-                  child: Text("AppLocalizations.of(context)!.systemTheme"),
+                  child: Text("Системанын темасы"),
                 ),
                 DropdownMenuItem(
                   value: ThemeMode.light,
-                  child: Text("AppLocalizations.of(context)!.lightTheme"),
+                  child: Text("Күндүзгү тема"),
                 ),
                 DropdownMenuItem(
                   value: ThemeMode.dark,
-                  child: Text("AppLocalizations.of(context)!.darkTheme"),
+                  child: Text("Түнкү тема"),
                 )
               ],
             ),
