@@ -15,9 +15,9 @@ import 'package:flutter/material.dart' as _i9;
 
 import '../screens/auth/login_page.dart' as _i1;
 import '../screens/auth/registration_page.dart' as _i2;
-import '../screens/course_page.dart' as _i6;
-import '../screens/featured_page.dart' as _i5;
-import '../screens/item_page.dart' as _i4;
+import '../screens/courses_page.dart' as _i6;
+import '../screens/course_categories_page.dart' as _i5;
+import '../screens/course_item_page.dart' as _i4;
 import '../screens/navigation_page.dart' as _i3;
 import '../screens/settings/settings_controller.dart' as _i10;
 import '../screens/settings/settings_page.dart' as _i7;
@@ -41,16 +41,18 @@ class AppRouter extends _i8.RootStackRouter {
           routeData: routeData, child: const _i3.NavigationPage());
     },
     ItemRoute.name: (routeData) {
+      final args =
+          routeData.argsAs<ItemRouteArgs>(orElse: () => const ItemRouteArgs());
       return _i8.MaterialPageX<dynamic>(
-          routeData: routeData, child: _i4.ItemPage());
+          routeData: routeData, child: _i4.ItemPage(key: args.key));
     },
     FeaturedRoute.name: (routeData) {
       return _i8.MaterialPageX<dynamic>(
-          routeData: routeData, child: const _i5.FeaturedPage());
+          routeData: routeData, child: const _i5.CoursesCategories());
     },
     CourseRoute.name: (routeData) {
       return _i8.MaterialPageX<dynamic>(
-          routeData: routeData, child: const _i6.CoursePage());
+          routeData: routeData, child: const _i6.CoursesPage());
     },
     SettingsRoute.name: (routeData) {
       final args = routeData.argsAs<SettingsRouteArgs>();
@@ -100,10 +102,23 @@ class NavigationRoute extends _i8.PageRouteInfo<void> {
 
 /// generated route for
 /// [_i4.ItemPage]
-class ItemRoute extends _i8.PageRouteInfo<void> {
-  const ItemRoute() : super(ItemRoute.name, path: '/item-page');
+class ItemRoute extends _i8.PageRouteInfo<ItemRouteArgs> {
+  ItemRoute({_i9.Key? key})
+      : super(ItemRoute.name,
+            path: '/item-page', args: ItemRouteArgs(key: key));
 
   static const String name = 'ItemRoute';
+}
+
+class ItemRouteArgs {
+  const ItemRouteArgs({this.key});
+
+  final _i9.Key? key;
+
+  @override
+  String toString() {
+    return 'ItemRouteArgs{key: $key}';
+  }
 }
 
 /// generated route for

@@ -14,33 +14,33 @@ class Course {
 
 List<Course> courses = [
   Course(
-    author: "Kubanych Asanov",
+    author: "Кубаныч Асанов",
     completedPercentage: 1,
-    name: "SQL in Kyrgyz language",
+    name: "SQL кыргыз тилинде",
     thumbnail: "assets/icons/SQL-icon.jpg",
   ),
   Course(
-    author: "Bakyt Ikramov",
+    author: "Кубаныч Асанов",
     completedPercentage: .75,
-    name: "Flutter cource",
+    name: "Flutter курсу",
     thumbnail: "assets/icons/flutter.jpg",
   ),
   Course(
-    author: "Dastan Kamalov",
+    author: "Кубаныч Асанов",
     completedPercentage: .60,
-    name: "React Novice to Ninja",
+    name: "React курсу",
     thumbnail: "assets/icons/react.jpg",
   ),
   Course(
-    author: "Suiorkul Abdukaimov",
+    author: "Кубаныч Асанов",
     completedPercentage: .75,
-    name: "Node - The complete guide",
+    name: "Node - толук курс",
     thumbnail: "assets/icons/node.png",
   ),
   Course(
-    author: "Kubanych Asanov",
+    author: "Кубаныч Асанов",
     completedPercentage: 1,
-    name: "SQL in Kyrgyz language",
+    name: "SQL кыргыз тилинде",
     thumbnail: "assets/icons/SQL-icon.jpg",
   ),
 ];

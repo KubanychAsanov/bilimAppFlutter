@@ -41,14 +41,14 @@ class ItemPage extends StatelessWidget {
 
         return Scaffold(
           appBar: AppBar(
-            title: Text(articles[pageIndex]['title']),
+            title: Text(sql_courses[pageIndex]['title']),
           ),
           drawer: DrawerWidget(state: state),
           body: SingleChildScrollView(
             child: Column(
               children: [
                 Container(key: dataKey),
-                ...generateContentBody(articles[pageIndex]['content']),
+                ...generateContentBody(sql_courses[pageIndex]['content']),
                 Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Row(
@@ -69,7 +69,7 @@ class ItemPage extends StatelessWidget {
                           label: Text('Мурунку'.toUpperCase()),
                         ),
                       Spacer(),
-                      if (pageIndex != articles.length - 1)
+                      if (pageIndex != sql_courses.length - 1)
                         ElevatedButton(
                           onPressed: () {
                             getIt<PageBloc>()

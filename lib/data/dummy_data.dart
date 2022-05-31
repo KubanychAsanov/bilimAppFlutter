@@ -1,4 +1,4 @@
-List articles = [
+List sql_courses = [
   {
     'title': 'Башкы бет',
     'content': [
@@ -16,10 +16,7 @@ SQL - бул маалымат базаларына жетүү жана алар�
 Ар бир бөлүмдө теманы жакшы түшүнүү үчүн мисалдар берилет. Ал эми жоопторун код түрүндө ошол эле жерден көрө аласыз!
 """,
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/BeE1yHQ6l1k'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/BeE1yHQ6l1k'},
     ]
   },
   {
@@ -80,7 +77,8 @@ SELECT * FROM Customers;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLWoAtKUEZTnioAAnXNvIS1hpiQ8v_NfKh2TWXnE5HISuy5lkyM2JA4uoTiEwpXbtFcvRBB1x-qbZROZSYCjf3XEt9cjfv6b_mD4IxrO-ch6gAalyw22ixGcgxC0VJayUGvKkUpRW6O_U24orxclwM2o=w1057-h495-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLWoAtKUEZTnioAAnXNvIS1hpiQ8v_NfKh2TWXnE5HISuy5lkyM2JA4uoTiEwpXbtFcvRBB1x-qbZROZSYCjf3XEt9cjfv6b_mD4IxrO-ch6gAalyw22ixGcgxC0VJayUGvKkUpRW6O_U24orxclwM2o=w1057-h495-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -88,12 +86,9 @@ SELECT * FROM Customers;
 Ар бир таблица колонка деп аталган кичинекей вертикалдуу объекттерге бөлүнөт. Бул таблица CustomerID, CustomerName, ContactName, Address, City, PostalCode жана Country деген колонкалардан турат. Колонка - бул жадыбалдагы ар бир жазуу жөнүндө конкреттүү маалыматты сактоо үчүн иштелип чыккан вертикалдуу клеткалардын топтому.
 
 Ал эми горизонталдуу клеткалар топтому сап деп аталат. Мисалы, жогорудагы кардарлар таблицасында 10 кардардын маалыматтары бар.
-""",  
+""",
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/v6uqmHNZ2CI'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/v6uqmHNZ2CI'},
     ]
   },
   {
@@ -113,7 +108,8 @@ SELECT * FROM Customers;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVcy3M0FSO4PqV6G9pnA2XY0oXBzViD_h1AcdacVo6AspBUm4A22snIh3i9bBw72M61YHsmaxYeMq7V6l566JEimRW_yx4_wVoc8H9E-1MuNQwTCYE5B8gL7fQQYJGeK1XPT4oJkPkJiHpqkk-ByBO9=w889-h377-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVcy3M0FSO4PqV6G9pnA2XY0oXBzViD_h1AcdacVo6AspBUm4A22snIh3i9bBw72M61YHsmaxYeMq7V6l566JEimRW_yx4_wVoc8H9E-1MuNQwTCYE5B8gL7fQQYJGeK1XPT4oJkPkJiHpqkk-ByBO9=w889-h377-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -153,10 +149,7 @@ SQLдин ачкыч сөздөрү чоң, кичине жазылышы - эк
 - DROP INDEX - индексти өчүрөт
 """,
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/3dVty1pksSE'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/3dVty1pksSE'},
     ]
   },
   {
@@ -193,7 +186,8 @@ SELECT CustomerName, City FROM Customers;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVssXvH94mxN54MnWNuqZQlfPJCHyNL5bxREP5pHCbKFFI3gQMFRTT43dABWYNpITbGNxIX_klUmfHtALQLXfJsugfyvM-0FDtmXZFA2MtZEhDKJ6xq04_Fh-VQNnkuyI_VXW08p9JTW_JNbG67jINr=w1052-h424-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVssXvH94mxN54MnWNuqZQlfPJCHyNL5bxREP5pHCbKFFI3gQMFRTT43dABWYNpITbGNxIX_klUmfHtALQLXfJsugfyvM-0FDtmXZFA2MtZEhDKJ6xq04_Fh-VQNnkuyI_VXW08p9JTW_JNbG67jINr=w1052-h424-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -210,12 +204,10 @@ SELECT * FROM Customers;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLWb0fnaz5R6ejoPEl2xkv68M77IQ_DMFermlcjZmXWUONlSLvKek9b_voMhIN1zt3yMiCdxzp19ocF1CqUxROSXbWUc2epfFn8CRm9USQoDxKE2t1zlq2WICmkdYhookkGprhqldtSvbtG-sEwgxx_j=w1053-h488-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLWb0fnaz5R6ejoPEl2xkv68M77IQ_DMFermlcjZmXWUONlSLvKek9b_voMhIN1zt3yMiCdxzp19ocF1CqUxROSXbWUc2epfFn8CRm9USQoDxKE2t1zlq2WICmkdYhookkGprhqldtSvbtG-sEwgxx_j=w1053-h488-no?authuser=0'
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/wUagkFT8GXc'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/wUagkFT8GXc'},
     ]
   },
   {
@@ -249,7 +241,8 @@ SELECT Country FROM Customers;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXs87YVCCkb0aPDzDLz6QsfjOJgF6sXm1bo8dCYFOSnK4znuBRHwBjqqQtRb2vDbOjGlFwLZigFA5Cvp8Sw_45t2wIvQWHDDXvdOcqbCi14rJlq2-Ppp5XzMI1yfnj2Pg3ay5w3fyqFpKxNUPEKPbgs=w761-h425-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXs87YVCCkb0aPDzDLz6QsfjOJgF6sXm1bo8dCYFOSnK4znuBRHwBjqqQtRb2vDbOjGlFwLZigFA5Cvp8Sw_45t2wIvQWHDDXvdOcqbCi14rJlq2-Ppp5XzMI1yfnj2Pg3ay5w3fyqFpKxNUPEKPbgs=w761-h425-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -267,7 +260,8 @@ SELECT DISTINCT Country FROM Customers;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXzJfi26MOA0TZX5HvOWWfkW6aWJYt29xibh9d9iJxhoMpYqI6Wql3I-JRaU1X9oJM7Pg0xMdejzMzgr5o7j34LWljHTisqB5SSp-EWlmiSUArSBAyRZsdZXCJLIKESM3eElDDDhOyVCfHsTw46a59i=w760-h425-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXzJfi26MOA0TZX5HvOWWfkW6aWJYt29xibh9d9iJxhoMpYqI6Wql3I-JRaU1X9oJM7Pg0xMdejzMzgr5o7j34LWljHTisqB5SSp-EWlmiSUArSBAyRZsdZXCJLIKESM3eElDDDhOyVCfHsTw46a59i=w760-h425-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -281,7 +275,8 @@ SELECT COUNT(DISTINCT Country) FROM Customers;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLW9fplQ0odU9GE_UePkW_cog7oIOmRr9udKt_emqoPtiu2zSME5Knj_9jIWsHsmqak2RJOAHJdE2o6mWA5ugIyGZGg7tC8RX7JDWoPRwdAVQm3yLLDyhP9DqqRNFmenBVeA79nhz_z5w2nwMl4cgmdw=w766-h84-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLW9fplQ0odU9GE_UePkW_cog7oIOmRr9udKt_emqoPtiu2zSME5Knj_9jIWsHsmqak2RJOAHJdE2o6mWA5ugIyGZGg7tC8RX7JDWoPRwdAVQm3yLLDyhP9DqqRNFmenBVeA79nhz_z5w2nwMl4cgmdw=w766-h84-no?authuser=0'
       },
     ]
   },
@@ -319,7 +314,8 @@ WHERE Country='Mexico';
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVqwPYtWGX_CE93_qYoP1rwUeCyL4nzPt1OB6YNJ4hJ7jSxm2nFHvRdL5HCLQM0phN4gzGyhzzBg9xswgKC3gSXKs6exaswWCw606HCWJQzqnhF8GckinM31LcGGP_fJPnIzRa4zoclFSgsZWh08dkb=w1051-h339-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVqwPYtWGX_CE93_qYoP1rwUeCyL4nzPt1OB6YNJ4hJ7jSxm2nFHvRdL5HCLQM0phN4gzGyhzzBg9xswgKC3gSXKs6exaswWCw606HCWJQzqnhF8GckinM31LcGGP_fJPnIzRa4zoclFSgsZWh08dkb=w1051-h339-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -339,7 +335,8 @@ WHERE CustomerID=1;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUX270PuTZxcqqqNhis0YO-p_BclYP2qBu1a1DDYSbATX0oC_Cn88XA91GZgCqFIroH15KieVJ54TywmqMcntje_e7rtAwNrQCb6KzkEjzmE1RrHxkg7Bz7PS0cY8V9tKPFmHsdeGbXfR4749nrJcoW=w1054-h84-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUX270PuTZxcqqqNhis0YO-p_BclYP2qBu1a1DDYSbATX0oC_Cn88XA91GZgCqFIroH15KieVJ54TywmqMcntje_e7rtAwNrQCb6KzkEjzmE1RrHxkg7Bz7PS0cY8V9tKPFmHsdeGbXfR4749nrJcoW=w1054-h84-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -352,7 +349,8 @@ WHERE CustomerID=1;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUwRBpa3WJzcVowaCIRXnqhqOckBBSoRqOtCoANy9xw9fBimuiM1GH0Zd3VZ0ZiuqYX2yIWFR6V6ySPEXG7XP64jH88ofhdwnBOCwvMzYF9CFFLLFmgFFRIIA976pVJIYdHBZ_j46V4lWDfrBndrlKO=w793-h442-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUwRBpa3WJzcVowaCIRXnqhqOckBBSoRqOtCoANy9xw9fBimuiM1GH0Zd3VZ0ZiuqYX2yIWFR6V6ySPEXG7XP64jH88ofhdwnBOCwvMzYF9CFFLLFmgFFRIIA976pVJIYdHBZ_j46V4lWDfrBndrlKO=w793-h442-no?authuser=0'
       },
     ]
   },
@@ -408,7 +406,8 @@ WHERE Country='Germany' AND City='Berlin';
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLWiamD6bHRuz7JfSuLd1sbN5_TozmkQdtIO_UIc6zgpZVAi3vnTdvEWqwBE8UKOvSghLqnXR5fu_yc4I-B98c1LfHfdHEhxjMYWwXoxWNvDp8lWOrc1-8fz8dzaTGqQtq9QekwR177s8qhfIdRC3VAz=w1054-h83-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLWiamD6bHRuz7JfSuLd1sbN5_TozmkQdtIO_UIc6zgpZVAi3vnTdvEWqwBE8UKOvSghLqnXR5fu_yc4I-B98c1LfHfdHEhxjMYWwXoxWNvDp8lWOrc1-8fz8dzaTGqQtq9QekwR177s8qhfIdRC3VAz=w1054-h83-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -425,7 +424,8 @@ WHERE City='Berlin' OR City='München';
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLX-7StU44nBgnL2f0pzldxMpQCEpjpOEySs1TCuSsvaGZLj5q6yJk0Vz-exSv6_bWnF5aNr3NdwRehSxYb8SFauTPAcnGBbZcdm8G9HNyl71YOMZKBXrfooaqbHGK6GS-NdJ4XHkSpS-d9Rt_-UBlmb=w1052-h119-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLX-7StU44nBgnL2f0pzldxMpQCEpjpOEySs1TCuSsvaGZLj5q6yJk0Vz-exSv6_bWnF5aNr3NdwRehSxYb8SFauTPAcnGBbZcdm8G9HNyl71YOMZKBXrfooaqbHGK6GS-NdJ4XHkSpS-d9Rt_-UBlmb=w1052-h119-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -442,7 +442,8 @@ WHERE NOT Country='Germany';
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLU_B9g19kBARxxzRJp5K1rfG2AMpLZt_7cEYnTsXnazX3U45vWWgeEqmV4hMO0FZ-lc0zj_IzBoCzUo-H2pNxBIWIpNJTrXCF1OrTit3b2ZmsXioE9boznyklGGevddTyeTlm0ml4vakg0AvAS4vnXU=w1055-h484-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLU_B9g19kBARxxzRJp5K1rfG2AMpLZt_7cEYnTsXnazX3U45vWWgeEqmV4hMO0FZ-lc0zj_IzBoCzUo-H2pNxBIWIpNJTrXCF1OrTit3b2ZmsXioE9boznyklGGevddTyeTlm0ml4vakg0AvAS4vnXU=w1055-h484-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -459,12 +460,10 @@ WHERE NOT Country='Germany' AND NOT Country='USA';
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVpUKO4eHoypvAfPdyDLU4phOYvwJStWe_V1fqne54nrJ1aOA9lkplSlUFge5H2IpcbE-o9Ogf8iWw02ylSMjTWHUaoCgQVW_I6N5wOiQaNZzDmwe-jPhfGTsxdiLODQ00YfMJPqo91FIN4WgLvn1P_=w1053-h508-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVpUKO4eHoypvAfPdyDLU4phOYvwJStWe_V1fqne54nrJ1aOA9lkplSlUFge5H2IpcbE-o9Ogf8iWw02ylSMjTWHUaoCgQVW_I6N5wOiQaNZzDmwe-jPhfGTsxdiLODQ00YfMJPqo91FIN4WgLvn1P_=w1053-h508-no?authuser=0'
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/VxImZuyVgmY'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/VxImZuyVgmY'},
     ]
   },
   {
@@ -499,7 +498,8 @@ ORDER BY Country;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXSXT-VJ5HETcNx3cvcoGqKKC30rXrTuhWKP3laYriOKzmKgSYVeiwa8fGXq9IMl3_OTQHDhfZt8Blt6j6xnIukZLNJzLcQ_tWALqmDI93nZC7OayMTyc1xgN26xgEMtvaobifcTsSnOnre5l5k0Jsi=w1053-h444-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXSXT-VJ5HETcNx3cvcoGqKKC30rXrTuhWKP3laYriOKzmKgSYVeiwa8fGXq9IMl3_OTQHDhfZt8Blt6j6xnIukZLNJzLcQ_tWALqmDI93nZC7OayMTyc1xgN26xgEMtvaobifcTsSnOnre5l5k0Jsi=w1053-h444-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -517,7 +517,8 @@ ORDER BY Country, CustomerName;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVo0rhsfS8ZOVVbGuxxpx5siP28K6483rG4fY9p9uIyaBq6yhi_sGSOzm80onrHoCgpjTxkCBMfQ_uY323BkyCkr58cREBGDxR2-vEzg-0HpqTEmg3o0cF-bHS6hnqwhKeS3-ycxPo0Qvcis2LOPsCq=w1053-h446-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVo0rhsfS8ZOVVbGuxxpx5siP28K6483rG4fY9p9uIyaBq6yhi_sGSOzm80onrHoCgpjTxkCBMfQ_uY323BkyCkr58cREBGDxR2-vEzg-0HpqTEmg3o0cF-bHS6hnqwhKeS3-ycxPo0Qvcis2LOPsCq=w1053-h446-no?authuser=0'
       },
     ]
   },
@@ -560,7 +561,8 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVfYU-losYl2KChiBEDveFuEgF-pzr5HNbxOUk8bWJEmFH1Qz5_yvNzvqkdkLi7kJLXLg-rNgT7T9ESYd_gPJIcoTv_nrrmSv72T6aRawrF6L6U_qSuA_ZoQ82qnO-rvbBeDgPmffbWqQbym3YgaOHu=w881-h291-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVfYU-losYl2KChiBEDveFuEgF-pzr5HNbxOUk8bWJEmFH1Qz5_yvNzvqkdkLi7kJLXLg-rNgT7T9ESYd_gPJIcoTv_nrrmSv72T6aRawrF6L6U_qSuA_ZoQ82qnO-rvbBeDgPmffbWqQbym3YgaOHu=w881-h291-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -622,7 +624,8 @@ WHERE Address IS NULL;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUMreZzhrTJUzRXers30YR0aMU4yATQu8xvUhe_UyDRdks1r65edqyBX0eANl-Ulo5SjJJifW-gj88TFhWrcpMpF84lyIuzlyVkcqoNeNTxt6ZkirlND3UBvp2S41U_UX5cjPfVqKXl4Ze2yw74Fn-9=w774-h49-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUMreZzhrTJUzRXers30YR0aMU4yATQu8xvUhe_UyDRdks1r65edqyBX0eANl-Ulo5SjJJifW-gj88TFhWrcpMpF84lyIuzlyVkcqoNeNTxt6ZkirlND3UBvp2S41U_UX5cjPfVqKXl4Ze2yw74Fn-9=w774-h49-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -644,7 +647,8 @@ WHERE Address IS NOT NULL;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUovGYAYLTk98IalJBTkjMOAVrEaVVf9YhNSnGZxHS9Xr5kqnnqhRt2GB7p0LXQPL3zi0HfZ4F1ReOMU_d-Mbqi85FxJw3FhYm1KNYx_BALQOxl1Qa1WegFwNxTZgzkcZWTgulwiE_nGGRKkyPGiWak=w877-h425-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUovGYAYLTk98IalJBTkjMOAVrEaVVf9YhNSnGZxHS9Xr5kqnnqhRt2GB7p0LXQPL3zi0HfZ4F1ReOMU_d-Mbqi85FxJw3FhYm1KNYx_BALQOxl1Qa1WegFwNxTZgzkcZWTgulwiE_nGGRKkyPGiWak=w877-h425-no?authuser=0'
       },
     ]
   },
@@ -681,7 +685,8 @@ WHERE CustomerID = 1;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVjeGqA9bq8KNUyucrFNqzHvYBpt2cl4CEMN98YgZLWmDWmelwRvOQ-ETl9BcmfChlsYvpvEnaZmdWFMLgtQNel7rjHOqqUkgAt48jC9uLkcdCqtpdkwZq6vGBdXJPxixMWUm44hIcEXOtjhHl53tTH=w882-h373-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVjeGqA9bq8KNUyucrFNqzHvYBpt2cl4CEMN98YgZLWmDWmelwRvOQ-ETl9BcmfChlsYvpvEnaZmdWFMLgtQNel7rjHOqqUkgAt48jC9uLkcdCqtpdkwZq6vGBdXJPxixMWUm44hIcEXOtjhHl53tTH=w882-h373-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -702,7 +707,8 @@ WHERE Country='Mexico';
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUnRSGcNlWXf2A0VlL8DiaBE0ZlITlRyhQAwjIX2RiSVNPR2CsE4fGyuTwaoIfjK8Ce2oLFgA7iA1PXlg7ocjXlO9Ax_Or3_jLFiiTog0JI0WAkgdgdp8Nb_VKgTwwgL7E8vgQQ8SPlWef5dhJQMWif=w881-h372-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUnRSGcNlWXf2A0VlL8DiaBE0ZlITlRyhQAwjIX2RiSVNPR2CsE4fGyuTwaoIfjK8Ce2oLFgA7iA1PXlg7ocjXlO9Ax_Or3_jLFiiTog0JI0WAkgdgdp8Nb_VKgTwwgL7E8vgQQ8SPlWef5dhJQMWif=w881-h372-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -711,10 +717,7 @@ WHERE Country='Mexico';
 Маалыматтарды жаңыртууда этият болуңуз. Эгерде сиз WHERE командасын калтырсаңыз, БАРДЫК маалыматтар жаңыртылат!
 """,
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/ggU9W-NREv4'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/ggU9W-NREv4'},
     ]
   },
   {
@@ -745,7 +748,8 @@ DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVd6y4kgtB0H6Pg9d4AZOEXWRwpAG1qe9B9uhoEfERzd-r0EzWTsZSMt6gMIHrWATQ5x1lUtBdXWa3ALbmWdwbwJEJ_cfChQ9tJwh79h4KRcvXgLodF6nPkBNN2gx84ZGBLoVQZewzFbahZlg1aKw-5=w881-h313-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVd6y4kgtB0H6Pg9d4AZOEXWRwpAG1qe9B9uhoEfERzd-r0EzWTsZSMt6gMIHrWATQ5x1lUtBdXWa3ALbmWdwbwJEJ_cfChQ9tJwh79h4KRcvXgLodF6nPkBNN2gx84ZGBLoVQZewzFbahZlg1aKw-5=w881-h313-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -766,10 +770,7 @@ DELETE FROM Customers;
 ```
 """,
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/ggU9W-NREv4'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/ggU9W-NREv4'},
     ]
   },
   {
@@ -812,7 +813,8 @@ FROM Products;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXCDcTNS9dIrZVBtkWqlanGzPKz1YnzLIiBOnAw2Ys1vfqTTyR_m4Ws4_9mek0Q14HCVo4VqPbUoMaqdK5V2LZM4STG2LXzMnNMOuT6tbtRQDKkNzIoH5dgIjtovWKz8HPvmNXuS5lOD8ItFkFJsdU0=w780-h81-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXCDcTNS9dIrZVBtkWqlanGzPKz1YnzLIiBOnAw2Ys1vfqTTyR_m4Ws4_9mek0Q14HCVo4VqPbUoMaqdK5V2LZM4STG2LXzMnNMOuT6tbtRQDKkNzIoH5dgIjtovWKz8HPvmNXuS5lOD8ItFkFJsdU0=w780-h81-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -829,7 +831,8 @@ FROM Products;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLU43gJoGJg1xQclOksy2rPe1W8zx-2d61UudbzONifoecxXsgdTXZTMhrt6nXT3Uvb16pSDSCWV5yEMzXD4EUY1LDry73K-9wCjl4tKW6oakurKlga5Ps04SZholRKgBuB41Q17qPDsyr7KzcfLdL_5=w775-h82-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLU43gJoGJg1xQclOksy2rPe1W8zx-2d61UudbzONifoecxXsgdTXZTMhrt6nXT3Uvb16pSDSCWV5yEMzXD4EUY1LDry73K-9wCjl4tKW6oakurKlga5Ps04SZholRKgBuB41Q17qPDsyr7KzcfLdL_5=w775-h82-no?authuser=0'
       },
     ]
   },
@@ -881,7 +884,8 @@ FROM Products;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLULTq293wbp_pqPpGPGjE0fVblf9rKZgsDrDjWY0qKlC7P-f9OihH_3T91gUzDg5tWKsswI1ijUqhB-ZI95l9OcJssgJTooQIhvUTNI61hu2gyM95E5hUOQMB67qMWS3y1HOtpS2nTLsak1nxcyrIkx=w778-h83-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLULTq293wbp_pqPpGPGjE0fVblf9rKZgsDrDjWY0qKlC7P-f9OihH_3T91gUzDg5tWKsswI1ijUqhB-ZI95l9OcJssgJTooQIhvUTNI61hu2gyM95E5hUOQMB67qMWS3y1HOtpS2nTLsak1nxcyrIkx=w778-h83-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -901,7 +905,8 @@ FROM Products;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUnR3lZu7D66us6C92v91euu6o0lG7uYow6_8znfUk5ztoDWnRBcE4B-eJK2mKZIbbYIqvImyAK0SEExPgEamtCBLN_5HbJee0AR1-vspoaOmOuIqmTq_FyoXaO9bi8TwQSJX804617t4_PGPiBjJGe=w763-h84-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUnR3lZu7D66us6C92v91euu6o0lG7uYow6_8znfUk5ztoDWnRBcE4B-eJK2mKZIbbYIqvImyAK0SEExPgEamtCBLN_5HbJee0AR1-vspoaOmOuIqmTq_FyoXaO9bi8TwQSJX804617t4_PGPiBjJGe=w763-h84-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -920,7 +925,8 @@ FROM OrderDetails;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXcPH8fj0aO89y-9SZSBvD5r6vjcRfCiFwXfVJqtluDlpp90o8qoTdAD3M_xuOYBKx3LCfe1cvqHsc_y26igqQJ-iJgxlJFmKw05xuBGk793sqF-vx-4Tatg9yAaXKvftRwqH3alLS3XdikGLo4YVO_=w764-h82-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXcPH8fj0aO89y-9SZSBvD5r6vjcRfCiFwXfVJqtluDlpp90o8qoTdAD3M_xuOYBKx3LCfe1cvqHsc_y26igqQJ-iJgxlJFmKw05xuBGk793sqF-vx-4Tatg9yAaXKvftRwqH3alLS3XdikGLo4YVO_=w764-h82-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -961,7 +967,8 @@ WHERE columnN LIKE pattern;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXLCFxCxraoEOcf9Bn3nlbD48tQh2WKOyOg0EoQiDlKUQDBNkrltCZ_e9j00MKe-2xMJndUfgJFuBbnvQmysg5Eq5axe9FBO18qdrFr7p62ie6ayjWoslnyCK9sdohEx2ASTy4meuWVF92mMqAQbSvJ=w880-h383-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXLCFxCxraoEOcf9Bn3nlbD48tQh2WKOyOg0EoQiDlKUQDBNkrltCZ_e9j00MKe-2xMJndUfgJFuBbnvQmysg5Eq5axe9FBO18qdrFr7p62ie6ayjWoslnyCK9sdohEx2ASTy4meuWVF92mMqAQbSvJ=w880-h383-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1036,10 +1043,7 @@ WHERE Country NOT IN ('Germany', 'France', 'UK');
 ```
 """,
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/LAgcMDFZiRs'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/LAgcMDFZiRs'},
     ]
   },
   {
@@ -1074,7 +1078,8 @@ WHERE Price BETWEEN 10 AND 20;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVmpHzWLGOqDINHXlH6mejlD7_QGBjqnx55ULdp5rzqsiBqBd6hwF3Zibg1f358bKNpEOzc-wmDqYaqZUqiZJvwweQOhvS4kxg_QTv22yBKXgHsgqwBZl0RG2X9JHDVv5e1qz8ikBLqHyXWjJa81R5N=w1052-h425-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVmpHzWLGOqDINHXlH6mejlD7_QGBjqnx55ULdp5rzqsiBqBd6hwF3Zibg1f358bKNpEOzc-wmDqYaqZUqiZJvwweQOhvS4kxg_QTv22yBKXgHsgqwBZl0RG2X9JHDVv5e1qz8ikBLqHyXWjJa81R5N=w1052-h425-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1090,7 +1095,8 @@ WHERE Price NOT BETWEEN 10 AND 20;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLW-8J6Ily5bs5bX0SE2q18jYKBwIhSRDBfdwRPUsmC2Wb4ZD-nCTf4PlkomI0eAUZGNH7rgCJaRHwSUG-yoyKPmzC4uZksgwRa2mrW8JfnKB1WNTziDsZVg_E4DhG9umhySwUJbrbqHUivsCv9ZZoWj=w1051-h425-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLW-8J6Ily5bs5bX0SE2q18jYKBwIhSRDBfdwRPUsmC2Wb4ZD-nCTf4PlkomI0eAUZGNH7rgCJaRHwSUG-yoyKPmzC4uZksgwRa2mrW8JfnKB1WNTziDsZVg_E4DhG9umhySwUJbrbqHUivsCv9ZZoWj=w1051-h425-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1106,7 +1112,8 @@ WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXyQZHmqMWwyPg4eujDYa1mePBVQbq9Ea1ErRh1Qbid1yS4tAuL5fRFLVib4XpzklIqDdTf0VPOR6O3zIzDTXJjmzA8JWE-nWc2mIV7BUnYclDaW8DYTYi3_UzccR5sN90fOFs7SAuKGPs2mN4n8mPH=w1051-h423-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXyQZHmqMWwyPg4eujDYa1mePBVQbq9Ea1ErRh1Qbid1yS4tAuL5fRFLVib4XpzklIqDdTf0VPOR6O3zIzDTXJjmzA8JWE-nWc2mIV7BUnYclDaW8DYTYi3_UzccR5sN90fOFs7SAuKGPs2mN4n8mPH=w1051-h423-no?authuser=0'
       },
     ]
   },
@@ -1125,7 +1132,8 @@ JOIN командасы эки же андан көп таблицалардын
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXvs-v1Vlc0W-gkNn4gHTmt5gWr_cCBPf082FrCa1-v7bUhJtG3VETofTGilM54sOcR3Y1x5CWIFQZUL4cAmavQg52cVKvPSnuthRLuD5iOktbFbL6_goUWRp0XQzlK-o4TqtZE39t-GOIYsWCfCXJT=w880-h161-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXvs-v1Vlc0W-gkNn4gHTmt5gWr_cCBPf082FrCa1-v7bUhJtG3VETofTGilM54sOcR3Y1x5CWIFQZUL4cAmavQg52cVKvPSnuthRLuD5iOktbFbL6_goUWRp0XQzlK-o4TqtZE39t-GOIYsWCfCXJT=w880-h161-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1135,7 +1143,8 @@ JOIN командасы эки же андан көп таблицалардын
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLV-uX06tFBo2WiuYbgu_hBw8DfyBqdpreWgw1Buv68PwfbrUbzcefgEYzW3hAT9Hhq39tjrcmr5GMm6R-LFADvdnbexNnx1MXLJ4rTfjj0qdahJ47LIl2t-4BTEgnAFxOdDdPn1eSSXj1rupEOeiPsa=w881-h162-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLV-uX06tFBo2WiuYbgu_hBw8DfyBqdpreWgw1Buv68PwfbrUbzcefgEYzW3hAT9Hhq39tjrcmr5GMm6R-LFADvdnbexNnx1MXLJ4rTfjj0qdahJ47LIl2t-4BTEgnAFxOdDdPn1eSSXj1rupEOeiPsa=w881-h162-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1154,7 +1163,8 @@ INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVNlXN1JXNyohso7DDNT5KmgRLHBY3KFrKHZZLcE-HVL7eVa30Y_8MVGyPowr8BKHNtW9jF-6bOX_pN4Wj97YigRLZR2WIIfW1bYGgDpr4FDno3lwJ9zuksf0LZeJqQ6BSx5lQMVLMyLWZiZVQEgK_q=w882-h239-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVNlXN1JXNyohso7DDNT5KmgRLHBY3KFrKHZZLcE-HVL7eVa30Y_8MVGyPowr8BKHNtW9jF-6bOX_pN4Wj97YigRLZR2WIIfW1bYGgDpr4FDno3lwJ9zuksf0LZeJqQ6BSx5lQMVLMyLWZiZVQEgK_q=w882-h239-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1170,12 +1180,10 @@ INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVXfc5Z6xYbqWlTJRdfvK7Baccqo-lVPSlb8I3Ct5sFKrUOYbtSu-nEh6n2WoeZvkfJh_KDrAekOm2Y4lb4ndnEZEzT28iiu9nroeA97hU4IWer4FDDboj29JRDbY7GSQCuay2pb2xkHKltaUXM3LB7=w873-h173-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVXfc5Z6xYbqWlTJRdfvK7Baccqo-lVPSlb8I3Ct5sFKrUOYbtSu-nEh6n2WoeZvkfJh_KDrAekOm2Y4lb4ndnEZEzT28iiu9nroeA97hU4IWer4FDDboj29JRDbY7GSQCuay2pb2xkHKltaUXM3LB7=w873-h173-no?authuser=0'
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/ozIzhaCklPU'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/ozIzhaCklPU'},
     ]
   },
   {
@@ -1191,7 +1199,8 @@ INNER JOIN ачкыч сөзү эки таблицадагы тең дал ке�
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXT2qFDFT126DKqwBt_u5RiFtVeVS21KHEaBDb3tOf0OkQ9_ND9Hi7SldOfgoImWoYaNvZWkvbp0D6eImF34j9ICJJdnGP_KI2PERmTJuh6MOtN7mUVpqDO8-ZUpYSPNHXRnKxGhXkw_EVEIRXh9qlK=w265-h171-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXT2qFDFT126DKqwBt_u5RiFtVeVS21KHEaBDb3tOf0OkQ9_ND9Hi7SldOfgoImWoYaNvZWkvbp0D6eImF34j9ICJJdnGP_KI2PERmTJuh6MOtN7mUVpqDO8-ZUpYSPNHXRnKxGhXkw_EVEIRXh9qlK=w265-h171-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1243,7 +1252,8 @@ LEFT JOIN ачкыч сөзү сол жактагы таблицадан (таб
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVOfVknQygiBD6JB29YrlG16VseLJqN-IhQ4zJKvECRe1aVY8b2I9qr8mQ_ZuR_VXtzaqP7yFvkp7_bgrU2xOdQrwH1GII7RuIH-1dlSJMsmI-o2EnTsPnx22hCqekvSz_N_WhIz0mj3NurIC5Ly0C3=w265-h175-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVOfVknQygiBD6JB29YrlG16VseLJqN-IhQ4zJKvECRe1aVY8b2I9qr8mQ_ZuR_VXtzaqP7yFvkp7_bgrU2xOdQrwH1GII7RuIH-1dlSJMsmI-o2EnTsPnx22hCqekvSz_N_WhIz0mj3NurIC5Ly0C3=w265-h175-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1271,10 +1281,7 @@ ORDER BY Customers.CustomerName;
 Эскертүү: LEFT JOIN ачкыч сөзү оң таблицада эч кандай дал келүү жок болсо да, сол таблицадагы бардык маалыматтарды кайтарып берет.
 """,
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/e3PyFW4FybM'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/e3PyFW4FybM'},
     ]
   },
   {
@@ -1290,7 +1297,8 @@ RIGHT JOIN ачкыч сөзү оң жактагы таблицадан (таб�
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXgZuXm_p57zD_5MvgfX94Jl7G6dQpx2Ouly1sl6wdlbx-eh2nord-1WKFNLMPkO9EvR5yws4W3VGWanH04AbJeOyES92B1OLi7vSJUqTuEofjlVmu6Y30dBtvKBy2t3POMgvW2B669UKsECnT8tgFp=w274-h175-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXgZuXm_p57zD_5MvgfX94Jl7G6dQpx2Ouly1sl6wdlbx-eh2nord-1WKFNLMPkO9EvR5yws4W3VGWanH04AbJeOyES92B1OLi7vSJUqTuEofjlVmu6Y30dBtvKBy2t3POMgvW2B669UKsECnT8tgFp=w274-h175-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1335,7 +1343,8 @@ FULL JOIN ачкыч сөзү эки таблицанын окшоштугу, т
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXgRy8rphh_Fbp9gj_NaA-k3j-KdqbRnkNcFnGZLu5MWIintX9CAnNkMmlyjXoYm1UGUeb0OAu9jSSx-NqPClN_BTtQZ2TNM9yAiMq_0PzICxVBY_eEHKnS0zsCKuMyXGc4MJ7H1TlXa0wikxpyCqfZ=w257-h179-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXgRy8rphh_Fbp9gj_NaA-k3j-KdqbRnkNcFnGZLu5MWIintX9CAnNkMmlyjXoYm1UGUeb0OAu9jSSx-NqPClN_BTtQZ2TNM9yAiMq_0PzICxVBY_eEHKnS0zsCKuMyXGc4MJ7H1TlXa0wikxpyCqfZ=w257-h179-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1398,10 +1407,7 @@ ORDER BY A.City;
 ```
 """,
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/0DakxpM7Bb8'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/0DakxpM7Bb8'},
     ]
   },
   {
@@ -1448,7 +1454,8 @@ ORDER BY City;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLU8E6nMEGpHPLQBjmaDzt5qnMUWd0JZXfLgjiXpH_gihBtnFDqwfz3mwX__TJgrnpLKtTtdvhUvRLo4CC1Krqh8ZkMB3wW7MrC2d99MtIuhNrB5DWiQ8Yr_SND1IgLfqYWiKr-QX4Vy7hWcJZhieHIP=w1052-h422-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLU8E6nMEGpHPLQBjmaDzt5qnMUWd0JZXfLgjiXpH_gihBtnFDqwfz3mwX__TJgrnpLKtTtdvhUvRLo4CC1Krqh8ZkMB3wW7MrC2d99MtIuhNrB5DWiQ8Yr_SND1IgLfqYWiKr-QX4Vy7hWcJZhieHIP=w1052-h422-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1468,7 +1475,8 @@ ORDER BY City;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXySH1V52KmMjWZ0eoS2Xs2Q-84QIZ8DR8sXQ9IN0wb-wpeqjT1_HMVRY3jD4N-kN55LleaF9VsK-J2lOAI7v09b2yawEy-M3vBfiptvxrGVGzFRoe8WVLbAG8cJDpk_tq2IWXjbOOx53Yyx_YcyOzr=w1055-h424-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXySH1V52KmMjWZ0eoS2Xs2Q-84QIZ8DR8sXQ9IN0wb-wpeqjT1_HMVRY3jD4N-kN55LleaF9VsK-J2lOAI7v09b2yawEy-M3vBfiptvxrGVGzFRoe8WVLbAG8cJDpk_tq2IWXjbOOx53Yyx_YcyOzr=w1055-h424-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1488,7 +1496,8 @@ ORDER BY City;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXj-xFYESSCuWw5edNZLrhvci-98-x630LjNJp3LUkHpM-aL-2AV7ywDomfQQxr9VAM_R38UQwXRSixkk6okXKko8WY71cmuHXu55vKroj00LGb-b0XGu0kxP8UT5YGfArPOUgtnCslt48DPh4vNod2=w1054-h157-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXj-xFYESSCuWw5edNZLrhvci-98-x630LjNJp3LUkHpM-aL-2AV7ywDomfQQxr9VAM_R38UQwXRSixkk6okXKko8WY71cmuHXu55vKroj00LGb-b0XGu0kxP8UT5YGfArPOUgtnCslt48DPh4vNod2=w1054-h157-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1509,7 +1518,8 @@ ORDER BY City;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLWJ2LrYtcppfYBAkedAcSKtIpuivbAQHBlhJ3A9Qc0L1p_VGmptoOJXrM1_ImRvo7puLQ3wAdnd3pQk9h4XpjAcr9gxvphLTRupLbjtIHeAZ2o0GqKzdGgQksyJryBwDzJ-DtEy4josMaROun50X8yo=w1052-h157-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLWJ2LrYtcppfYBAkedAcSKtIpuivbAQHBlhJ3A9Qc0L1p_VGmptoOJXrM1_ImRvo7puLQ3wAdnd3pQk9h4XpjAcr9gxvphLTRupLbjtIHeAZ2o0GqKzdGgQksyJryBwDzJ-DtEy4josMaROun50X8yo=w1052-h157-no?authuser=0'
       },
     ]
   },
@@ -1564,10 +1574,7 @@ GROUP BY ShipperName;
 ```
 """,
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/2R9kf65HRWU'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/2R9kf65HRWU'},
     ]
   },
   {
@@ -1615,12 +1622,10 @@ HAVING COUNT(Orders.OrderID) > 10;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXXq8qUI97Ip5qAXU-n3vq3ZIk145Sh463LGclm9rwOOcozcVGSTXpnAW51GWREdEzSFroE-nIglnvRjk-pLUbkkoXKXYn7VQV6-emrPKDWwLQchsFbAtIFgv7Z5eXM9zxl3lx5HWjIj1M8kTI8ZfwS=w1052-h350-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXXq8qUI97Ip5qAXU-n3vq3ZIk145Sh463LGclm9rwOOcozcVGSTXpnAW51GWREdEzSFroE-nIglnvRjk-pLUbkkoXKXYn7VQV6-emrPKDWwLQchsFbAtIFgv7Z5eXM9zxl3lx5HWjIj1M8kTI8ZfwS=w1052-h350-no?authuser=0'
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/qhXw1F_osCc'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/qhXw1F_osCc'},
     ]
   },
   {
@@ -1657,7 +1662,8 @@ WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppl
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUr396OF_kiJKvH7IHY3y-0sGu7RButxnCUMog7i9-rJcX91jYRoQgqDMCNLLar4ZGSoh8EPVMwfVuMUMio5W0GjwHwRTI4YMUd_2YE2KaktWr6r_gZONQa8kjDgEkbssEfx0ZKEiADZzXKAmnkmkrz=w1050-h422-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUr396OF_kiJKvH7IHY3y-0sGu7RButxnCUMog7i9-rJcX91jYRoQgqDMCNLLar4ZGSoh8EPVMwfVuMUMio5W0GjwHwRTI4YMUd_2YE2KaktWr6r_gZONQa8kjDgEkbssEfx0ZKEiADZzXKAmnkmkrz=w1050-h422-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1673,7 +1679,8 @@ WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppl
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUl4pwfp--pnG_q-o2Hqwm2O18ralg1EHB9EeD6oQGqQ08EIy8TVB7A69gSMWWAImKp1eoUemwYxKHJatqSjDyLnw88ilC19LGgT0w05gRe8P32paNYcY-T8NamCBeqSRvUsMI9FeDBBHOqVnZG3wU2=w767-h80-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUl4pwfp--pnG_q-o2Hqwm2O18ralg1EHB9EeD6oQGqQ08EIy8TVB7A69gSMWWAImKp1eoUemwYxKHJatqSjDyLnw88ilC19LGgT0w05gRe8P32paNYcY-T8NamCBeqSRvUsMI9FeDBBHOqVnZG3wU2=w767-h80-no?authuser=0'
       },
     ]
   },
@@ -1754,7 +1761,8 @@ WHERE ProductID = ANY
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLX5m8bZhTTZHoCvKD3-lFU9HViJWipP7CVFwww-Kb26VkpBmposyVr_wwHbVrM7rge-zkddwforszNBzPTqDV8W8EJbQz-6wZ1tQDYwAcjI5OGaMz1ceHZ6VDKN0MQR2irNXZwufAdGhT8WPpvASsJ5=w1038-h355-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLX5m8bZhTTZHoCvKD3-lFU9HViJWipP7CVFwww-Kb26VkpBmposyVr_wwHbVrM7rge-zkddwforszNBzPTqDV8W8EJbQz-6wZ1tQDYwAcjI5OGaMz1ceHZ6VDKN0MQR2irNXZwufAdGhT8WPpvASsJ5=w1038-h355-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1773,7 +1781,8 @@ WHERE ProductID = ANY
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUTZINGZtwRGglVEYtve3pIrJThTX9aJ0GB5lcU7COkQWt2ftOxetOThhIsXBNrpCoboomJdh8NXm-sY6RZkfsJvbKRkscD17u5TRn8ofBEVXSA3Jt_5LpgVLUV8Kd5a17F0GIBA8H1EL3FlJSofbHN=w764-h122-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUTZINGZtwRGglVEYtve3pIrJThTX9aJ0GB5lcU7COkQWt2ftOxetOThhIsXBNrpCoboomJdh8NXm-sY6RZkfsJvbKRkscD17u5TRn8ofBEVXSA3Jt_5LpgVLUV8Kd5a17F0GIBA8H1EL3FlJSofbHN=w764-h122-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1791,7 +1800,8 @@ WHERE TRUE;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVBBky7GycSY4ugvL1gZ3g0r5b5kpgzhC5jYGa3ztcbjya3FH-AcPiHiKy4K3fPEdH3GBpxdgC8WJJKZFxwNrhF8NjP5i6L7n_jFPyqc_fEllHMQT2gUfW5WopXs70KPJPQT3Sm_PCggZrIQ3dz-swg=w768-h356-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVBBky7GycSY4ugvL1gZ3g0r5b5kpgzhC5jYGa3ztcbjya3FH-AcPiHiKy4K3fPEdH3GBpxdgC8WJJKZFxwNrhF8NjP5i6L7n_jFPyqc_fEllHMQT2gUfW5WopXs70KPJPQT3Sm_PCggZrIQ3dz-swg=w768-h356-no?authuser=0'
       },
     ]
   },
@@ -1956,7 +1966,8 @@ FROM OrderDetails;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUawWrrzV9wZEsX3fp-r-vAEDzVqvb1RnpJCXTfOcR07LzxMk1edbMRGZ9p96xHhQq3pMt4H7f4mmpyz1fDBdTwPgZ3zH05XSK01VtI9hZXkyRbZ8sTHMnU8FX2yL3ak7GHkcXi1mx13Kts6EO_vNFQ=w1037-h354-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUawWrrzV9wZEsX3fp-r-vAEDzVqvb1RnpJCXTfOcR07LzxMk1edbMRGZ9p96xHhQq3pMt4H7f4mmpyz1fDBdTwPgZ3zH05XSK01VtI9hZXkyRbZ8sTHMnU8FX2yL3ak7GHkcXi1mx13Kts6EO_vNFQ=w1037-h354-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -1976,12 +1987,10 @@ END);
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLXwWCIbRxyQ0s0V25QVvfVC1k8_9xyvK6fL-pNtdkhoaXx3IdFPK_ioSTQjkE4K5Zu80UIHy772Pu53Ts0tSUTL9_n2ojeV9gpMtq8ZD8q0WWb5aF31Xl56UbEwxRAOpGiN2AiUzhA4UDdsmkM527Tl=w1039-h359-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLXwWCIbRxyQ0s0V25QVvfVC1k8_9xyvK6fL-pNtdkhoaXx3IdFPK_ioSTQjkE4K5Zu80UIHy772Pu53Ts0tSUTL9_n2ojeV9gpMtq8ZD8q0WWb5aF31Xl56UbEwxRAOpGiN2AiUzhA4UDdsmkM527Tl=w1039-h359-no?authuser=0'
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/0A-1zeAZrwg'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/0A-1zeAZrwg'},
     ]
   },
   {
@@ -2083,7 +2092,8 @@ ORDER BY CustomerName;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLViIxEVeFjtuULGIL3IPxDrlDRoPfP8yQ0G607C9OwfF9fTEgB4CbPsYEhLvLpTsElBlpXrwWl3W-2i9VpvnL727mkE82N0E3QesQ4TAvUWwnX-gUTMmzyBND_BaXhgxV2z2ljr_ILMcCS9JYf7LUaa=w786-h263-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLViIxEVeFjtuULGIL3IPxDrlDRoPfP8yQ0G607C9OwfF9fTEgB4CbPsYEhLvLpTsElBlpXrwWl3W-2i9VpvnL727mkE82N0E3QesQ4TAvUWwnX-gUTMmzyBND_BaXhgxV2z2ljr_ILMcCS9JYf7LUaa=w786-h263-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -2093,7 +2103,8 @@ ORDER BY CustomerName;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVBEukx47IWr19aLGmpFpMl56ATf3Jqzlp2wBwcjDYMG5aD7YQNYhZKqvCL02NHI7a0U-_uq6ur5OTr-odJXtOPXZcmWTFryJqNJKmlcomrvZhpx3gQliVYncdEIcm86QNOoVpRY4sITtxU6zkGIBGM=w789-h162-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVBEukx47IWr19aLGmpFpMl56ATf3Jqzlp2wBwcjDYMG5aD7YQNYhZKqvCL02NHI7a0U-_uq6ur5OTr-odJXtOPXZcmWTFryJqNJKmlcomrvZhpx3gQliVYncdEIcm86QNOoVpRY4sITtxU6zkGIBGM=w789-h162-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -2103,7 +2114,8 @@ ORDER BY CustomerName;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLUjZ2QZjLgPxwDcA6hDxC8AljwQGAWw32KqFDjNDJ58UEkpg8wJ45Kl9T69-8_Y2AEBM1v6T0gG7m3WJinrPfB6UKNGtg83lGQCvbxkHdfbRu-M-Uu2oUFVubCVPqH2oxizXK6olVtqxeQYKqgbO6Jz=w1112-h625-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLUjZ2QZjLgPxwDcA6hDxC8AljwQGAWw32KqFDjNDJ58UEkpg8wJ45Kl9T69-8_Y2AEBM1v6T0gG7m3WJinrPfB6UKNGtg83lGQCvbxkHdfbRu-M-Uu2oUFVubCVPqH2oxizXK6olVtqxeQYKqgbO6Jz=w1112-h625-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -2113,7 +2125,8 @@ ORDER BY CustomerName;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVz0C7wSKvUlv0OkAfstqx0ayaoWQnSlsYIx7TIBdFtZiMIhcssXWrQDi5Fqf-IWzjWvAhmHJQD5FYWgcDI9nsarJTHDoFdX3_B92sA8RjmxOpE_pRoVwUFcmB0k1Ekl-pQDOnpQ385YGSf405dV2s0=w803-h354-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVz0C7wSKvUlv0OkAfstqx0ayaoWQnSlsYIx7TIBdFtZiMIhcssXWrQDi5Fqf-IWzjWvAhmHJQD5FYWgcDI9nsarJTHDoFdX3_B92sA8RjmxOpE_pRoVwUFcmB0k1Ekl-pQDOnpQ385YGSf405dV2s0=w803-h354-no?authuser=0'
       },
       {
         'type': 'MARKDOWN',
@@ -2123,7 +2136,8 @@ ORDER BY CustomerName;
       },
       {
         'type': 'IMAGE',
-        'data': 'https://lh3.googleusercontent.com/pw/AM-JKLVeLkCQBd8RbxQjA8idF1LbqLVU073lGv0BLZPOurecBD_XSnPTb_cmz-w6MeZPDlp5N0PelzynUqdVFWg9o8nXdjbaOyBgv6eOAJPhLrYXA99TOlQZY-rN5Y-JkRmgS9Xh7StilAcPP7X5w9T3qPiG=w787-h481-no?authuser=0'
+        'data':
+            'https://lh3.googleusercontent.com/pw/AM-JKLVeLkCQBd8RbxQjA8idF1LbqLVU073lGv0BLZPOurecBD_XSnPTb_cmz-w6MeZPDlp5N0PelzynUqdVFWg9o8nXdjbaOyBgv6eOAJPhLrYXA99TOlQZY-rN5Y-JkRmgS9Xh7StilAcPP7X5w9T3qPiG=w787-h481-no?authuser=0'
       },
     ]
   },
@@ -2153,10 +2167,7 @@ CREATE DATABASE testDB;
 Кеңеш: Кандайдыр бир маалымат базасын түзүүдөн мурун административдик артыкчылыкка ээ экениңизди текшериңиз. Маалыматтар базасы түзүлгөндөн кийин, аны төмөнкү SQL буйругу менен маалымат базаларынын тизмесинен текшере аласыз: SHOW DATABASES;
 """,
       },
-      {
-        'type': 'YOUTUBE',
-        'data': 'https://youtu.be/uIrDMKtLUlE'
-      },
+      {'type': 'YOUTUBE', 'data': 'https://youtu.be/uIrDMKtLUlE'},
     ]
   },
   {

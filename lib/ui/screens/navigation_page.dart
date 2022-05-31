@@ -1,8 +1,7 @@
-import 'package:bilim_app/constants/color.dart';
 import 'package:flutter/material.dart';
 
-import 'featured_page.dart';
-import 'home_page.dart';
+import 'course_categories_page.dart';
+import 'articles_page.dart';
 
 class NavigationPage extends StatefulWidget {
   const NavigationPage({Key? key}) : super(key: key);
@@ -15,9 +14,8 @@ class _NavigationState extends State<NavigationPage> {
   int _selectedTab = 0;
 
   final List _pages = const [
-    HomePage(),
-    FeaturedPage(),
-    HomePage(),
+    ArticlesPage(),
+    CoursesCategories(),
   ];
 
   _changeTab(int index) {
@@ -34,9 +32,8 @@ class _NavigationState extends State<NavigationPage> {
         currentIndex: _selectedTab,
         onTap: (index) => _changeTab(index),
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-          BottomNavigationBarItem(icon: Icon(Icons.ac_unit), label: "Courses"),
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Макалалар"),
+          BottomNavigationBarItem(icon: Icon(Icons.ac_unit), label: "Курстар"),
         ],
       ),
     );

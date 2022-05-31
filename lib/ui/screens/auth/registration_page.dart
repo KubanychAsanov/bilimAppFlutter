@@ -13,50 +13,48 @@ class RegistrationPage extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Container(
-            child: Stack(
-              children: <Widget>[
-                Container(
-                  padding: EdgeInsets.fromLTRB(15.0, 110.0, 0.0, 0.0),
-                  child: Text(
-                    'Signup',
-                    style:
-                        TextStyle(fontSize: 80.0, fontWeight: FontWeight.bold),
-                  ),
+          Stack(
+            children: <Widget>[
+              Container(
+                padding: const EdgeInsets.fromLTRB(15.0, 110.0, 0.0, 0.0),
+                child: const Text(
+                  'Катталуу',
+                  style: TextStyle(fontSize: 80.0, fontWeight: FontWeight.bold),
                 ),
-                Container(
-                  padding: EdgeInsets.fromLTRB(260.0, 125.0, 0.0, 0.0),
-                  child: Text(
-                    '.',
-                    style: TextStyle(
-                        fontSize: 80.0,
-                        fontWeight: FontWeight.bold,
-                        color: kPrimaryColor),
-                  ),
-                )
-              ],
-            ),
+              ),
+              Container(
+                padding: const EdgeInsets.fromLTRB(340.0, 125.0, 0.0, 0.0),
+                child: const Text(
+                  '.',
+                  style: TextStyle(
+                      fontSize: 80.0,
+                      fontWeight: FontWeight.bold,
+                      color: kPrimaryColor),
+                ),
+              )
+            ],
           ),
           Container(
-              padding: EdgeInsets.only(top: 35.0, left: 20.0, right: 20.0),
+              padding:
+                  const EdgeInsets.only(top: 35.0, left: 20.0, right: 20.0),
               child: Column(
                 children: <Widget>[
-                  TextField(
+                  const TextField(
                     decoration: InputDecoration(
-                        labelText: 'EMAIL',
+                        labelText: 'Почта',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
                             color: Colors.grey),
-                        hintText: 'EMAIL',
+                        hintText: 'Почта',
                         // hintStyle: ,
                         focusedBorder: UnderlineInputBorder(
                             borderSide: BorderSide(color: kPrimaryColor))),
                   ),
-                  SizedBox(height: 10.0),
-                  TextField(
+                  const SizedBox(height: 10.0),
+                  const TextField(
                     decoration: InputDecoration(
-                        labelText: 'PASSWORD ',
+                        labelText: 'Сыр сөз',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
@@ -65,10 +63,10 @@ class RegistrationPage extends StatelessWidget {
                             borderSide: BorderSide(color: kPrimaryColor))),
                     obscureText: true,
                   ),
-                  SizedBox(height: 10.0),
-                  TextField(
+                  const SizedBox(height: 10.0),
+                  const TextField(
                     decoration: InputDecoration(
-                        labelText: 'NICK NAME ',
+                        labelText: 'Аты ',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
@@ -76,8 +74,8 @@ class RegistrationPage extends StatelessWidget {
                         focusedBorder: UnderlineInputBorder(
                             borderSide: BorderSide(color: kPrimaryColor))),
                   ),
-                  SizedBox(height: 50.0),
-                  Container(
+                  const SizedBox(height: 50.0),
+                  SizedBox(
                       height: 40.0,
                       child: Material(
                         borderRadius: BorderRadius.circular(20.0),
@@ -88,9 +86,9 @@ class RegistrationPage extends StatelessWidget {
                           onTap: () {
                             context.pushRoute(LoginRoute());
                           },
-                          child: Center(
+                          child: const Center(
                             child: Text(
-                              'SIGNUP',
+                              'Катталуу',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -99,7 +97,7 @@ class RegistrationPage extends StatelessWidget {
                           ),
                         ),
                       )),
-                  SizedBox(height: 20.0),
+                  const SizedBox(height: 20.0),
                   Container(
                     height: 40.0,
                     color: Colors.transparent,
@@ -115,11 +113,14 @@ class RegistrationPage extends StatelessWidget {
                         onTap: () {
                           context.popRoute();
                         },
-                        child: Center(
-                          child: Text('Go Back',
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontFamily: 'Montserrat')),
+                        child: const Center(
+                          child: Text(
+                            'Артка кайтуу',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontFamily: 'Montserrat',
+                            ),
+                          ),
                         ),
                       ),
                     ),

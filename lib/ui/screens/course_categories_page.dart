@@ -3,19 +3,19 @@ import 'package:flutter/services.dart';
 import 'package:bilim_app/constants/color.dart';
 import 'package:bilim_app/constants/size.dart';
 import 'package:auto_route/auto_route.dart';
-import 'package:bilim_app/models/category.dart';
+import 'package:bilim_app/data/model/course_category.dart';
 import 'package:bilim_app/ui/routing/router.gr.dart';
 import 'package:bilim_app/ui/widgets/circle_button.dart';
 import 'package:bilim_app/ui/widgets/search_textfield.dart';
 
-class FeaturedPage extends StatefulWidget {
-  const FeaturedPage({Key? key}) : super(key: key);
+class CoursesCategories extends StatefulWidget {
+  const CoursesCategories({Key? key}) : super(key: key);
 
   @override
   _FeaturedScreenState createState() => _FeaturedScreenState();
 }
 
-class _FeaturedScreenState extends State<FeaturedPage> {
+class _FeaturedScreenState extends State<CoursesCategories> {
   @override
   Widget build(BuildContext context) {
     return AnnotatedRegion<SystemUiOverlayStyle>(
@@ -46,8 +46,8 @@ class Body extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(
-                "Categories",
+              const Text(
+                "Категориялар",
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w500,
@@ -57,7 +57,7 @@ class Body extends StatelessWidget {
               TextButton(
                 onPressed: () {},
                 child: Text(
-                  "See All",
+                  "Баарын көрүү",
                   style: Theme.of(context)
                       .textTheme
                       .bodyText2
@@ -92,7 +92,7 @@ class Body extends StatelessWidget {
 }
 
 class CategoryCard extends StatelessWidget {
-  final Category category;
+  final CourseCategory category;
   const CategoryCard({
     Key? key,
     required this.category,
@@ -138,7 +138,7 @@ class CategoryCard extends StatelessWidget {
               ),
             ),
             Text(
-              "${category.noOfCourses.toString()} courses",
+              "${category.noOfCourses.toString()} курс",
               style: const TextStyle(
                 color: Colors.black,
                 fontSize: 18,
@@ -185,7 +185,7 @@ class AppBar extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                "Hello,\nGood Morning",
+                "Салам,\nКутман таң",
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w500,

@@ -85,10 +85,47 @@ class $AssetsIconsGen {
       const AssetGenImage('assets/icons/star_outlined.png');
 }
 
+class $AssetsImagesGen {
+  const $AssetsImagesGen();
+
+  /// File path: assets/images/img_business.png
+  AssetGenImage get imgBusiness =>
+      const AssetGenImage('assets/images/img_business.png');
+
+  /// File path: assets/images/img_entertainment.png
+  AssetGenImage get imgEntertainment =>
+      const AssetGenImage('assets/images/img_entertainment.png');
+
+  /// File path: assets/images/img_health.png
+  AssetGenImage get imgHealth =>
+      const AssetGenImage('assets/images/img_health.png');
+
+  /// File path: assets/images/img_not_found.jpg
+  AssetGenImage get imgNotFound =>
+      const AssetGenImage('assets/images/img_not_found.jpg');
+
+  /// File path: assets/images/img_placeholder.jpg
+  AssetGenImage get imgPlaceholder =>
+      const AssetGenImage('assets/images/img_placeholder.jpg');
+
+  /// File path: assets/images/img_science.png
+  AssetGenImage get imgScience =>
+      const AssetGenImage('assets/images/img_science.png');
+
+  /// File path: assets/images/img_sport.png
+  AssetGenImage get imgSport =>
+      const AssetGenImage('assets/images/img_sport.png');
+
+  /// File path: assets/images/img_technology.png
+  AssetGenImage get imgTechnology =>
+      const AssetGenImage('assets/images/img_technology.png');
+}
+
 class Assets {
   Assets._();
 
   static const $AssetsIconsGen icons = $AssetsIconsGen();
+  static const $AssetsImagesGen images = $AssetsImagesGen();
 }
 
 class AssetGenImage {

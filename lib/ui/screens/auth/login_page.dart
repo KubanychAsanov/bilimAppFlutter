@@ -25,23 +25,26 @@ class LoginPage extends StatelessWidget {
               children: <Widget>[
                 Container(
                   padding: const EdgeInsets.fromLTRB(15.0, 110.0, 0.0, 0.0),
-                  child: const Text('Hello',
+                  child: const Text('Кош',
                       style: TextStyle(
                           fontSize: 80.0, fontWeight: FontWeight.bold)),
                 ),
                 Container(
                   padding: const EdgeInsets.fromLTRB(16.0, 175.0, 0.0, 0.0),
-                  child: const Text('There',
+                  child: const Text('келдиң',
                       style: TextStyle(
                           fontSize: 80.0, fontWeight: FontWeight.bold)),
                 ),
                 Container(
-                  padding: const EdgeInsets.fromLTRB(220.0, 175.0, 0.0, 0.0),
-                  child: const Text('.',
-                      style: TextStyle(
-                          fontSize: 80.0,
-                          fontWeight: FontWeight.bold,
-                          color: kPrimaryColor)),
+                  padding: const EdgeInsets.fromLTRB(300.0, 175.0, 0.0, 0.0),
+                  child: const Text(
+                    '.',
+                    style: TextStyle(
+                      fontSize: 80.0,
+                      fontWeight: FontWeight.bold,
+                      color: kPrimaryColor,
+                    ),
+                  ),
                 )
               ],
             ),
@@ -52,7 +55,7 @@ class LoginPage extends StatelessWidget {
                   children: <Widget>[
                     const TextField(
                       decoration: InputDecoration(
-                          labelText: 'EMAIL',
+                          labelText: 'Почта',
                           labelStyle: TextStyle(
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,
@@ -63,7 +66,7 @@ class LoginPage extends StatelessWidget {
                     const SizedBox(height: 20.0),
                     const TextField(
                       decoration: InputDecoration(
-                          labelText: 'PASSWORD',
+                          labelText: 'Сыр сөз',
                           labelStyle: TextStyle(
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,
@@ -78,7 +81,7 @@ class LoginPage extends StatelessWidget {
                       padding: const EdgeInsets.only(top: 15.0, left: 20.0),
                       child: const InkWell(
                         child: Text(
-                          'Forgot Password',
+                          'Сыр сөздү унутуу',
                           style: TextStyle(
                               color: kPrimaryColor,
                               fontWeight: FontWeight.bold,
@@ -102,7 +105,7 @@ class LoginPage extends StatelessWidget {
                           },
                           child: const Center(
                             child: Text(
-                              'LOGIN',
+                              'Кирүү',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
@@ -120,7 +123,7 @@ class LoginPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 const Text(
-                  "Don't have an account",
+                  "Аккаунтуңуз жокбу? ",
                   style: TextStyle(fontFamily: 'Montserrat'),
                 ),
                 const SizedBox(width: 5.0),
@@ -129,7 +132,7 @@ class LoginPage extends StatelessWidget {
                     context.pushRoute(const RegistrationRoute());
                   },
                   child: const Text(
-                    'Register',
+                    'Катталуу',
                     style: TextStyle(
                       color: kPrimaryColor,
                       fontFamily: 'Montserrat',

@@ -30,7 +30,7 @@ class DrawerWidget extends StatelessWidget {
             physics: const NeverScrollableScrollPhysics(),
             shrinkWrap: true,
             padding: const EdgeInsets.only(bottom: 10),
-            itemCount: articles.length,
+            itemCount: sql_courses.length,
             itemBuilder: (BuildContext context, int index) {
               return InkWell(
                 child: Container(
@@ -41,7 +41,7 @@ class DrawerWidget extends StatelessWidget {
                     horizontal: 15,
                   ),
                   child: Text(
-                    articles[index]['title'],
+                    sql_courses[index]['title'],
                     style: TextStyle(
                       fontSize: 18,
                       color: state.index == index ? Colors.white : null,

@@ -1,6 +1,6 @@
 
 
-import 'package:bilim_app/data/models/user.model.dart';
+import 'package:bilim_app/data/model/user.model.dart';
 
 import '../../result.model.dart';
 

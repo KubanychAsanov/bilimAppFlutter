@@ -48,6 +48,7 @@ class MyApp extends StatelessWidget {
             bottomNavigationBarTheme: const BottomNavigationBarThemeData(
               selectedItemColor: kPrimaryColor,
             ),
+            fontFamily: "Poppins",
           ),
           darkTheme: ThemeData.dark(),
           themeMode: settingsController.themeMode,

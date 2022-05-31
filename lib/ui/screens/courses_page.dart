@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:bilim_app/constants/color.dart';
-import 'package:bilim_app/models/course.dart';
+import 'package:bilim_app/data/model/course.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:bilim_app/ui/routing/router.gr.dart';
 
-class CoursePage extends StatefulWidget {
-  const CoursePage({Key? key}) : super(key: key);
+class CoursesPage extends StatefulWidget {
+  const CoursesPage({Key? key}) : super(key: key);
 
   @override
   _CoursePageState createState() => _CoursePageState();
 }
 
-class _CoursePageState extends State<CoursePage> {
+class _CoursePageState extends State<CoursesPage> {
   @override
   Widget build(BuildContext context) {
     return AnnotatedRegion<SystemUiOverlayStyle>(
@@ -30,7 +30,7 @@ class _CoursePageState extends State<CoursePage> {
                     children: [
                       const Align(
                         child: Text(
-                          'Development',
+                          'Иштеп чыгуу',
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w500,
@@ -92,7 +92,7 @@ class CourseContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => context.pushRoute(const ItemRoute()),
+      onTap: () => context.pushRoute(ItemRoute()),
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
@@ -126,7 +126,7 @@ class CourseContainer extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "Author: ${course.author}",
+                    "Автор: ${course.author}",
                     style: const TextStyle(
                       color: Colors.black,
                       fontSize: 15,
